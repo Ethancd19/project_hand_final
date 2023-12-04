@@ -167,7 +167,7 @@ class level0State {
 
         //display controls
         textAlign(100, 600)
-        text('right arrow: move right\nleft arrow: move left\nup arrow: jump\nshift + up arrow: super jump', 100, 600)
+        text('right arrow: move right\nleft arrow: move left\nup arrow: jump\nshift + up arrow: super jump\ne: interact', 100, 600)
 
         if (minigameActive) {
             console.log('Drawing minigame...');
